@@ -1,0 +1,2 @@
+export const APP_THEME_COLOR = "#2374de";
+export const APP_LOGO = "https://firebasestorage.googleapis.com/v0/b/ecomsai-templates.appspot.com/o/common%2Flogo.png?alt=media&token=ce165987-8419-4d33-9389-3c50d5a8702b"

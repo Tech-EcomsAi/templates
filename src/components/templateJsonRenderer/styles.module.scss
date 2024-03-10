@@ -1,0 +1,23 @@
+.templateDrawer {
+  background-color: white;
+
+  &:first-child {
+    position: sticky;
+    top: 0;
+    left: 0;
+    backdrop-filter: saturate(200%) blur(30px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid #2374de;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 3px;
+    width: 371px;
+  }
+  &:last-child {
+    padding: 10px;
+    overflow-x: auto;
+    width: 378px;
+  }
+}
