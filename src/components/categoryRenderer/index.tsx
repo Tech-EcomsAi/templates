@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 'use client'
+import { APP_LOGO } from '@/constants/common'
 import { CategoryComponentsList } from '@/constants/sections'
 import { TemplatesContext } from '@/providers/layoutProvider'
 import { Button, Card, Space } from 'antd'
@@ -18,7 +19,7 @@ function CategoryView({ category }: any) {
                         if (savedState) {
                             component.thumbnail = savedState.thumbnail;
                         } else {
-                            component.thumbnail = 'https://firebasestorage.googleapis.com/v0/b/ecomsai-templates.appspot.com/o/templates%2F111%2Flogo.png?alt=media&token=78c45874-5ec8-43f1-b6a1-554f411dddd0';
+                            component.thumbnail = APP_LOGO
                         }
                     })
                 })

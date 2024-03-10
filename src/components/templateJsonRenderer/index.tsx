@@ -1,6 +1,5 @@
 'use client'
 import Loading from "@/app/loading";
-import { converter } from "@/app/utils";
 import { CategoryComponentsList } from "@/constants/sections";
 import { addComponent, getComponentById } from "@/database/templates/components";
 import uploadImageToStorage from "@/lib/firebase/uploadToStorage";
@@ -115,7 +114,7 @@ function TemplateJsonRenderer({ openTemplateDrawer, templateDrawer }: any) {
             category,
             componentId: componentData?.id,
             thumbnail: base64url,
-            ...converter(getElement()),
+            // ...converter(getElement()),
         };
         messageApi.open({
             type: "success",
