@@ -1,0 +1,90 @@
+{
+    "id": "1da43bec-c20d-4595-9771-a5a62edf73c1",
+    "componentName": "one",
+    "category": "hero",
+    "componentId": "1-1-1",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/ecomsai-templates.appspot.com/o/templates%2F1-1-1%2Fone?alt=media&token=54fc0276-462a-4d88-b02f-2fdd335f563b",
+    "props": {},
+    "component": "div",
+    "styles": {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "height": "auto",
+        "justifyContent": "center",
+        "width": "100%",
+        "position": "relative",
+        "backgroundColor": "rgb(222, 225, 236)",
+        "padding": "30px 30px 30px 30px"
+    },
+    "children": [
+        {
+            "props": {
+                "text": "The ultimate template for sale"
+            },
+            "component": "h1",
+            "styles": {
+                "textAlign": "center",
+                "alignItems": "center",
+                "color": "rgb(0, 0, 0)",
+                "display": "flex",
+                "fontFamily": "Poppins",
+                "fontSize": "54px",
+                "fontWeight": "700",
+                "height": "100%",
+                "justifyContent": "center",
+                "letterSpacing": "-0.16px",
+                "lineHeight": "72px",
+                "maxWidth": "800px",
+                "width": "100%",
+                "margin": "0px 0 0 0px"
+            },
+            "children": []
+        },
+        {
+            "props": {
+                "text": "Hellix provides you with everything you need to build high converting SaaS website and make an impact."
+            },
+            "component": "p",
+            "styles": {
+                "fontSize": "20px",
+                "color": "gray",
+                "textAlign": "center"
+            },
+            "children": []
+        },
+        {
+            "props": {},
+            "component": "div",
+            "styles": {
+                "display": "flex",
+                "justifyContent": "center",
+                "alignItems": "center",
+                "rowGap": "20px",
+                "columnGap": "20px",
+                "margin": "20px 0 0 0"
+            },
+            "children": [
+                {
+                    "props": {
+                        "text": "Buy Template"
+                    },
+                    "component": "div",
+                    "styles": {
+                        "backgroundColor": "blueviolet",
+                        "color": "white"
+                    },
+                    "children": []
+                },
+                {
+                    "props": {
+                        "text": "View Template"
+                    },
+                    "component": "div",
+                    "styles": {},
+                    "children": []
+                }
+            ]
+        }
+    ]
+}
